@@ -1,0 +1,38 @@
+name: "my-github.io-website"
+navbar:
+    title: "Billy Jackson"
+    type: inverse
+    left:
+        - icon: fa-home
+          href: index.html
+        - text: "About"
+          href: about.html
+        - text: "Portfolio"
+          icon: fa-folder-open
+          menu:
+            - text: "Projects"
+            - text: "NBA website"
+              href: page_a.html
+            - text: "Next word prediction algorithm"
+              href: page_b.html
+            - text: "---------"
+            - text: "Research"
+            - text: "PECTAC"
+              href: page_c.html
+            - text: "Page D"
+              href: page_d.html
+    right:
+        - icon: fa-envelope-o
+          href: mailto:action781@gmail.com    
+        - icon: fa-linkedin-square
+          href: https://www.linkedin.com/in/william-jackson-a0ab9b97/
+        - icon: fa-github
+          href: https://github.com/action781
+
+        
+    output:
+        html_document:
+            highlight: textmate
+            include:
+                after_body: footer.html
+            css: styles.css
