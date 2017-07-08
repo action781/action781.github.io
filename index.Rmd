@@ -9,3 +9,7 @@ library(rmarkdown)
 
 # Hello world!
 
+This page is under construction.  
+It will soon be updated with 
+
+Click About Me to see a description of my recently completed projects

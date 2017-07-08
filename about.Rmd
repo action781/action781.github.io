@@ -1,28 +1,18 @@
 ---
-title: "About me"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+## Biography
 
-## R Markdown
+I've been a math professor at North Shore Community College for the past 5 years. 
+I'm a data enthusiast, eagerly learning everything I can about statistics, programming, 
+and creating cool data products.
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+## Projects  
+* [Next word prediction app](https://action781.shinyapps.io/text_prediction_shiny_app/) - 
+An app that functions like the "word prediction" function
+in text messaging apps.  It takes in a phrase and predicts the next word.  
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+* NBA Salary app - An app that scrapes NBA player salaries from the web and compiles them into one 
+table that is sortable, filterable, and other cool things a user can do.
 
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

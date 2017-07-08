@@ -14,7 +14,7 @@ navbar:
             - text: "NBA website"
               href: page_a.html
             - text: "Next word prediction algorithm"
-              href: page_b.html
+              href: https://action781.shinyapps.io/text_prediction_shiny_app/
             - text: "---------"
             - text: "Research"
             - text: "PECTAC"
