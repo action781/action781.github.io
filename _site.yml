@@ -4,11 +4,11 @@ navbar:
     type: inverse
     left:
         - icon: fa-home
+          text: "Home"
           href: index.html
         - text: "About"
           href: about.html
         - text: "Portfolio"
-          icon: fa-folder-open
           menu:
             - text: "Projects"
             - text: "NBA website"
@@ -19,8 +19,6 @@ navbar:
             - text: "Research"
             - text: "PECTAC"
               href: page_c.html
-            - text: "Page D"
-              href: page_d.html
     right:
         - icon: fa-envelope-o
           href: mailto:action781@gmail.com    
@@ -28,11 +26,8 @@ navbar:
           href: https://www.linkedin.com/in/william-jackson-a0ab9b97/
         - icon: fa-github
           href: https://github.com/action781
-
-        
-    output:
-        html_document:
-            highlight: textmate
-            include:
-                after_body: footer.html
-            css: styles.css
+    theme: "spacelab"
+output:
+    html_document:
+        theme: "spacelab"
+ 
