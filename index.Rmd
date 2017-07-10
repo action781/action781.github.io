@@ -12,4 +12,4 @@ library(rmarkdown)
 This page is under construction.  
 It will soon be updated with 
 
-Click About Me to see a description of my recently completed projects
+Click "About" to see a description of my recently completed work
