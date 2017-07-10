@@ -10,9 +10,11 @@ navbar:
           href: about.html
         - text: "Portfolio"
           menu:
-            - text: "Projects"
+            - text: "NBA Projects"
             - text: "NBA website"
-              href: page_a.html
+              href: https://action781.shinyapps.io/DDPCourseProject/
+            - text: "---------"
+            - text: "Other Projects"
             - text: "Next word prediction algorithm"
               href: https://action781.shinyapps.io/text_prediction_shiny_app/
             - text: "---------"
